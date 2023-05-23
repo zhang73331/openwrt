@@ -7,7 +7,7 @@ git clone --depth=1 --single-branch https://github.com/kenzok8/small.git
 #Design Theme
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-theme-design.git
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-app-design-config.git
-git clone --depth=1 --single-branch https://github.com/davinyue/luci-theme-edge.git
+
 #Open Clash
 git clone --depth=1 --single-branch --branch "dev" https://github.com/vernesong/OpenClash.git
 
