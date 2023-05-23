@@ -14,7 +14,7 @@ permissions: write-all
 #CI任务
 jobs:
   owrt_config:
-    #调用公用编译核心Ramips-CORE
+    #调用公用编译核心Ramips-CORE.yml
     uses: ./.github/workflows/Ramips-CORE.yml
     with:
       #编译平台
