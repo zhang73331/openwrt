@@ -94,7 +94,7 @@ jobs:
 
           cd ./package
 
-          $GITHUB_WORKSPACE/Scripts/Plugins.sh
+          $GITHUB_WORKSPACE/Scripts/Ramips-Plugins.sh
 
       - name: Custom Settings
         run: |
@@ -162,7 +162,7 @@ jobs:
       - name: Delete Old Releases
         uses: dev-drprasad/delete-older-releases@master
         with:
-          keep_latest: 4
+          keep_latest: 5
           delete_tags: true
 
       - name: Delete Old Workflows
