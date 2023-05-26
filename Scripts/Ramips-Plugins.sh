@@ -11,6 +11,10 @@ git clone --depth=1 --single-branch https://github.com/jerrykuku/luci-app-argon-
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-theme-design.git
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-app-design-config.git
 git clone --depth=1 --single-branch https://github.com/davinyue/luci-theme-edge.git
+
+#Design netspeedtest
+git clone --depth=1 --single-branch https://github.com/sirpdboy/netspeedtest.git
+
 #Open Clash
 git clone --depth=1 --single-branch --branch "dev" https://github.com/vernesong/OpenClash.git
 #kenzok8-openwrt-packages
