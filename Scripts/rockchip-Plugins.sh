@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#Linkease
+git clone --depth=1 --single-branch https://github.com/linkease/istore.git
+git clone --depth=1 --single-branch https://github.com/linkease/nas-packages.git
+git clone --depth=1 --single-branch https://github.com/linkease/nas-packages-luci.git
+
 #kenzok8-openwrt-packages
 git clone --depth=1 --single-branch https://github.com/kenzok8/openwrt-packages.git
 git clone --depth=1 --single-branch https://github.com/kenzok8/small.git
