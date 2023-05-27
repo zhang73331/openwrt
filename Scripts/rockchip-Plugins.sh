@@ -4,12 +4,12 @@
 git clone --depth=1 --single-branch https://github.com/kenzok8/openwrt-packages.git
 git clone --depth=1 --single-branch https://github.com/kenzok8/small.git
 
+#netspeedtest
+git clone --depth=1 --single-branch https://github.com/sirpdboy/netspeedtest.git
+
 #Design Theme
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-theme-design.git
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-app-design-config.git
-
-#Design netspeedtest
-git clone --depth=1 --single-branch https://github.com/sirpdboy/netspeedtest.git
 
 #Open Clash
 git clone --depth=1 --single-branch --branch "dev" https://github.com/vernesong/OpenClash.git
