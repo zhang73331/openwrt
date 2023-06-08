@@ -14,6 +14,7 @@ git clone --depth=1 --single-branch https://github.com/sirpdboy/netspeedtest.git
 
 #Design Theme
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-theme-design.git
+git clone --depth=1 --single-branch https://github.com/davinyue/luci-theme-edge.git
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-app-design-config.git
 
 #Open Clash
