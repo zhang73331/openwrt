@@ -78,11 +78,11 @@ jobs:
       - name: Clone OWRT Code
         run: |
           git clone --depth=1 --single-branch $OWRT_URL ./owrt
+          sed -i "s/KERNEL_PATCHVER:='.*'/KERNEL_PATCHVER:=5.4/g" ./target/linux/rockchip/Makefile
 
       - name: Update Feeds
         run: |
           cd ./owrt
-           sed -i "s/KERNEL_PATCHVER:='.*'/KERNEL_PATCHVER:=5.4/g" ./target/linux/rockchip/Makefile
           ./scripts/feeds update -a
           ./scripts/feeds install -a
           
