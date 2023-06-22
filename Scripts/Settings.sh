@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sed -i "s/KERNEL_PATCHVER:='.*'/KERNEL_PATCHVER:=5.4/g" ./target/linux/rockchip/Makefile
+
 #删除冲突插件
 rm -rf $(find ./feeds/luci/ -type d -regex ".*\(argon\|design\|openclash\).*")
 #修改默认主题
