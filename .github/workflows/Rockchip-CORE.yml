@@ -85,7 +85,8 @@ jobs:
 
           ./scripts/feeds update -a
           ./scripts/feeds install -a
-
+          sed -i "s/KERNEL_PATCHVER:='.*'/KERNEL_PATCHVER:=5.4/g" ./target/linux/rockchip/Makefile
+          
       - name: Custom Scripts
         run: |
           cd ./owrt
